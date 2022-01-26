@@ -31,3 +31,17 @@ To connect another client to this kernel, use:
 ```
 % ipython --existing kernel-71888.json
 ```
+
+Other backends
+
+https://medium.com/@Med1um1/using-matplotlib-in-jupyter-notebooks-comparing-methods-and-some-tips-python-c38e85b40ba1
+
+%notebook widget
+
+seems to be the same as %notebook ipympl
+
+%matplotlib --list
+
+On Colab is agg by default
+
+Each cell ends with an implicit show. The current axes is cleared, plt.gca()
